@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="transform translate-x-10 translate-y-10" >
+  <h1 class= "font-bold text-2xl">
+    Timofei Asinski
+  </h1>
+    <div class= "flex flex-row p-4 gap-10">
+      <img src= "timofei.jpeg" alt= "Me" width="300" height= "300"/>
+      <div> 
+        <p class= "flow-text break-words max-w-2xl">
+      Hi, my name is Timofei Asinski. Im a computer science student within Northwestern University's
+      McCormick School of Engineering. I'm currently conducting algorithms-related research within the McCue research group
+        and under Professor Konstantin Makarychev. In the past, I've worked on projects ranging from computer vision to web3 Solana analytics.
+        You can reach me at timofei@u.northwestern.edu.
+        </p>
+        <br>
+        <p>
+          Some coursework highlights:
+          <li>
+           AI/ML:  Machine Learning, Optimization for Deep Learning, Probabilistic Graphical Models
+          </li>
+          <li>
+            Systems: Operating Systems, Database Management Systems, Computer Networking 
+          </li>
+          <li>
+            Algorithms: Design and Analysis of Algorithms, Graduate Algorithms, Approximation Algorithms
+          </li>
+          <li>
+            Misc: Computer Graphics, Linear Algebra, Discrete Math, Intro to Materials Science, Data Science with Python, Creative Nonfiction 
+          </li>
+        </p>
+      </div>
+
+      
+    </div>
+    <h1 class= "font-bold text-2xl"> Projects</h1>
+     <div class="grid grid-cols-2 gap-2"> 
+      <div class= "max-w-2xl p-2">
+        <h1 class= "font-bold">✱ Image Denoising with Monte Carlo Markov Chain Gibbs Sampling </h1>
+          Implemented in Python as part of a course in probabilistic graphical models. Images are 
+        represented by the Ising Model, originally used in statistical mechanics. To learn the 
+        relationships between pixel positions and a noisy image, a random walk is taken along the
+        markov chain of image state possibilities, with more probabilistically likely samples used to update
+        the graphical model's parameters. Some results: <a class= "underline text-blue-600" href= "mnist.png">MNIST</a>, <a class= "underline text-blue-600" href= "cat.png">Cat</a>. 
+        <p class= "italic bg-gray-200">+ Python, NumPy, Markov Random Fields, MCMC sampling</p>
+      </div>
+      <div class= "max-w-2xl p-2">
+        <h1 class= "font-bold">✱ Northwestern Meal Bazaar -- <a class= "underline text-blue-600">Link</a></h1>
+          A web application created with Ruby on Rails and Tailwind CSS. The idea for this website came out of 
+        a conversation I had with one of my friends, and I figured it would be a good exercise in learning some UI frameworks
+        and secure and scaleable web app design. The site allows NU students to bid on and offer up dining hall/meal swipes. 
+        Some features include session-based authentication and rate-limiting for login and signup. The app was deployed using Kamal,
+        a containerization platform that interfaces with Docker containers.
+       <p class= "italic bg-gray-200">+ Ruby on Rails, TalwindCSS, Docker/Kamal</p>
+
+      </div>
+      <div class= "max-w-2xl p-2">
+        <h1 class= "font-bold"> ✱ Microscopy Sample Analysis with a Convolutional Neural Network -- <a class= "underline text-blue-600" href= "https://github.com/tasinskii/GUI-PACBED-Analysis">Link</a></h1>
+          My first two summers at Northwestern, I worked in the VPD Lab, a materials science research group focused
+        on electron microscopy. As part of my work, I created a GUI application to process and analyze 4D Scanning
+        Transmission Electron Microscopy (4D STEM) data. This data can offer a wealth of information about a sample, 
+        so as part of my GUI tool, I incorporated a Convolutional Neural Network (CNN) to determine the thickness of a 
+        sample. Additionally, users can use the tool to develop processed images based on a chosen sub-section of the total
+        data. 
+       <p class= "italic bg-gray-200">+ Python, OpenCV, Threading, PyQt6, NumPy, matplotlib, Keras</p>
+      </div>
+
+      <div class= "max-w-2xl p-2">
+        <h1 class= "font-bold">✱ Solana Blockchain Freelance Development </h1>
+        I've been developing small Python and Rust tools for the Solana Blockchain on and off since 2023. Recently, I've created 
+        an asynchronous trading client and software to search block data for bundled token (in layman's terms, a scam) detection. Right now, 
+        I'm working on a backtesting framework for testing several trading algorithms. 
+         <p class= "italic bg-gray-200">+ Rust, Python, Solana RPC API, Solders </p>
+      </div>
+      <div class= "max-w-2xl p-2">
+        <h1 class= "font-bold"> ✱ Animated WebGL Scene with Textures and Phong Lighting --  <a class= "underline text-blue-600" href= "project3/project3.html">Link</a></h1>
+          For my Computer Graphics class, our final project was to incorporate a Phong lighting model and
+        textures into a scene of our choosing. The scene shows a low-poly version of myself pouring tea for 
+        a low-poly version of my girlfriend, Maya. I modeled the figures and textures in Blender. The project
+        first parses the saved Blender .obj files, then for every frame draws the models, textures, and lighting to the screen, and applies transformations to the models 
+         to animate the figures. The user can manipulate the position 
+        of a camera, as well as the position of the light source. 
+       <p class= "italic bg-gray-200">+ WebGL, Javascript, Blender</p>
+      </div>
+      <div class= "max-w-xl p-2">
+        <h1 class= "font-bold"> ✱ More to come... </h1>
+        
+      </div>
+    </div>
+
+</body>
+</html>
+
