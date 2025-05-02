@@ -2,7 +2,7 @@
   "name": "reprally-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tasinskii.github.io/my-app"
+  "homepage": "https://tasinskii.github.io/my-app",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
