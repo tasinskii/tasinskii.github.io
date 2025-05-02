@@ -1,10 +1,17 @@
 {
+  "name": "reprally-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://tasinskii.github.io/reprally-app",
   "devDependencies": {
-    "gh-pages": "^6.3.0",
-    "homepage": "https://tasinskii.github.io/reprally-app",
-    "scripts": {
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build"
-    }
+    "gh-pages": "^6.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
